@@ -1,0 +1,13 @@
+services:
+  coin-landing:
+    build: .
+    container_name: coin-landing
+    ports:
+      - "8080:80"
+    restart: unless-stopped
+    # Ограничения ресурсов — сервис лёгкий и не нагружает систему
+    deploy:
+      resources:
+        limits:
+          cpus: "0.25"
+          memory: 64M

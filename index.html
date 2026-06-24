@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Coin — лёгкий учёт расходов</title>
+  <meta name="description" content="Coin — простое приложение для отслеживания расходов. iOS, Android и веб. Видите, куда уходят деньги, и держите бюджет под контролем." />
+  <meta name="theme-color" content="#ffffff" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ccircle cx='50' cy='50' r='46' fill='%230a84ff'/%3E%3Ctext x='50' y='68' font-size='52' text-anchor='middle' fill='white' font-family='Arial' font-weight='bold'%3EC%3C/text%3E%3C/svg%3E" />
+</head>
+<body>
+
+  <!-- Навигация -->
+  <header class="nav" id="nav">
+    <div class="container nav__inner">
+      <a href="#" class="brand">
+        <span class="brand__logo">C</span>
+        <span class="brand__name">Coin</span>
+      </a>
+      <nav class="nav__links">
+        <a href="#features">Возможности</a>
+        <a href="#how">Как это работает</a>
+        <a href="#platforms">Платформы</a>
+        <a href="#pricing">Цены</a>
+      </nav>
+      <a href="#download" class="btn btn--primary btn--sm">Скачать</a>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero -->
+    <section class="hero">
+      <div class="container hero__inner">
+        <div class="hero__text reveal">
+          <p class="eyebrow">Учёт расходов без усилий</p>
+          <h1>Видите, куда<br />уходят деньги.</h1>
+          <p class="lead">Coin превращает каждую трату в понятную картину. Записывайте расходы за пару секунд, следите за бюджетом и копите на цели — на телефоне и в браузере.</p>
+          <div class="hero__cta">
+            <a href="#download" class="btn btn--primary">Начать бесплатно</a>
+            <a href="#how" class="btn btn--ghost">Как это работает →</a>
+          </div>
+          <p class="hero__note">Бесплатно навсегда • Без рекламы • Данные только ваши</p>
+        </div>
+
+        <div class="hero__visual reveal">
+          <div class="phone">
+            <div class="phone__notch"></div>
+            <div class="phone__screen">
+              <div class="app-balance">
+                <span class="app-balance__label">Баланс за июнь</span>
+                <span class="app-balance__value">48 250 ₽</span>
+                <span class="app-balance__sub">осталось из 60 000 ₽</span>
+                <div class="app-bar"><span style="width:62%"></span></div>
+              </div>
+              <ul class="app-list">
+                <li><span class="ic ic--food">🍜</span><span class="app-list__name">Кафе<small>Еда</small></span><span class="app-list__sum">−540 ₽</span></li>
+                <li><span class="ic ic--shop">🛍️</span><span class="app-list__name">Маркет<small>Покупки</small></span><span class="app-list__sum">−2 130 ₽</span></li>
+                <li><span class="ic ic--trans">🚌</span><span class="app-list__name">Транспорт<small>Метро</small></span><span class="app-list__sum">−62 ₽</span></li>
+                <li><span class="ic ic--home">🏠</span><span class="app-list__name">Аренда<small>Жильё</small></span><span class="app-list__sum">−18 000 ₽</span></li>
+              </ul>
+            </div>
+          </div>
+          <div class="blob blob--1"></div>
+          <div class="blob blob--2"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Доверие / цифры -->
+    <section class="stats">
+      <div class="container stats__grid">
+        <div class="reveal"><b>4.9</b><span>средняя оценка</span></div>
+        <div class="reveal"><b>200k+</b><span>пользователей</span></div>
+        <div class="reveal"><b>3 сек</b><span>добавить расход</span></div>
+        <div class="reveal"><b>0 ₽</b><span>базовый тариф</span></div>
+      </div>
+    </section>
+
+    <!-- Возможности -->
+    <section class="section" id="features">
+      <div class="container">
+        <header class="section__head reveal">
+          <p class="eyebrow">Возможности</p>
+          <h2>Всё, что нужно, и ничего лишнего.</h2>
+          <p class="section__lead">Мы убрали всё, что усложняет учёт денег. Осталось только то, чем вы будете пользоваться каждый день.</p>
+        </header>
+
+        <div class="cards">
+          <article class="card reveal">
+            <div class="card__icon">⚡️</div>
+            <h3>Быстрый ввод</h3>
+            <p>Добавляйте расход в три касания. Категория, сумма, готово — без длинных форм.</p>
+          </article>
+          <article class="card reveal">
+            <div class="card__icon">📊</div>
+            <h3>Понятная аналитика</h3>
+            <p>Наглядные графики показывают структуру трат по категориям и динамику за месяц.</p>
+          </article>
+          <article class="card reveal">
+            <div class="card__icon">🎯</div>
+            <h3>Бюджеты и цели</h3>
+            <p>Задайте лимит на месяц — Coin подскажет, когда вы приближаетесь к границе.</p>
+          </article>
+          <article class="card reveal">
+            <div class="card__icon">☁️</div>
+            <h3>Синхронизация</h3>
+            <p>Начните на телефоне, продолжите в браузере. Данные всегда актуальны на всех устройствах.</p>
+          </article>
+          <article class="card reveal">
+            <div class="card__icon">🔁</div>
+            <h3>Повторяющиеся траты</h3>
+            <p>Подписки и аренда добавляются сами. Coin помнит регулярные платежи за вас.</p>
+          </article>
+          <article class="card reveal">
+            <div class="card__icon">🔒</div>
+            <h3>Приватность</h3>
+            <p>Данные шифруются и принадлежат только вам. Никакой рекламы и продажи данных.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Как это работает -->
+    <section class="section section--alt" id="how">
+      <div class="container">
+        <header class="section__head reveal">
+          <p class="eyebrow">Как это работает</p>
+          <h2>Три шага к контролю над деньгами.</h2>
+        </header>
+        <div class="steps">
+          <div class="step reveal">
+            <span class="step__num">1</span>
+            <h3>Записывайте траты</h3>
+            <p>Купили кофе — отметили за пару секунд. Coin сам предложит категорию.</p>
+          </div>
+          <div class="step reveal">
+            <span class="step__num">2</span>
+            <h3>Смотрите аналитику</h3>
+            <p>В конце дня видно, на что ушли деньги, и сколько осталось до конца месяца.</p>
+          </div>
+          <div class="step reveal">
+            <span class="step__num">3</span>
+            <h3>Достигайте целей</h3>
+            <p>Держите бюджет, сокращайте лишнее и копите на то, что важно именно вам.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Платформы -->
+    <section class="section" id="platforms">
+      <div class="container platforms">
+        <div class="platforms__text reveal">
+          <p class="eyebrow">Везде с вами</p>
+          <h2>iPhone, Android и веб — одни данные.</h2>
+          <p class="section__lead">Coin работает там, где удобно вам. Нативные приложения для телефона и полноценная веб-версия в браузере, без установки.</p>
+          <ul class="checklist">
+            <li>Мгновенная синхронизация между устройствами</li>
+            <li>Работает офлайн — запишет и догрузит позже</li>
+            <li>Лёгкий интерфейс, который не тормозит</li>
+          </ul>
+        </div>
+        <div class="platforms__icons reveal">
+          <div class="pf-card"><span>📱</span>iOS</div>
+          <div class="pf-card"><span>🤖</span>Android</div>
+          <div class="pf-card"><span>🌐</span>Веб</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Цены -->
+    <section class="section section--alt" id="pricing">
+      <div class="container">
+        <header class="section__head reveal">
+          <p class="eyebrow">Цены</p>
+          <h2>Просто и честно.</h2>
+        </header>
+        <div class="plans">
+          <article class="plan reveal">
+            <h3>Бесплатно</h3>
+            <p class="plan__price">0 ₽<span>/ навсегда</span></p>
+            <ul>
+              <li>Неограниченные расходы</li>
+              <li>Базовая аналитика</li>
+              <li>2 устройства</li>
+            </ul>
+            <a href="#download" class="btn btn--ghost btn--block">Начать</a>
+          </article>
+          <article class="plan plan--featured reveal">
+            <span class="plan__badge">Популярно</span>
+            <h3>Plus</h3>
+            <p class="plan__price">149 ₽<span>/ месяц</span></p>
+            <ul>
+              <li>Всё из бесплатного</li>
+              <li>Бюджеты и цели</li>
+              <li>Расширенная аналитика</li>
+              <li>Неограниченные устройства</li>
+            </ul>
+            <a href="#download" class="btn btn--primary btn--block">Попробовать 14 дней</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Загрузка -->
+    <section class="cta" id="download">
+      <div class="container cta__inner reveal">
+        <h2>Возьмите расходы под контроль уже сегодня.</h2>
+        <p>Установите Coin за минуту и почувствуйте разницу к концу первого месяца.</p>
+        <div class="store-buttons">
+          <a href="#" class="store-btn"><span>🍎</span><b>App Store</b><small>Скачать в</small></a>
+          <a href="#" class="store-btn"><span>▶️</span><b>Google Play</b><small>Доступно в</small></a>
+          <a href="#" class="store-btn"><span>🌐</span><b>Открыть веб</b><small>Без установки</small></a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer__inner">
+      <a href="#" class="brand">
+        <span class="brand__logo">C</span>
+        <span class="brand__name">Coin</span>
+      </a>
+      <nav class="footer__links">
+        <a href="#features">Возможности</a>
+        <a href="#pricing">Цены</a>
+        <a href="#">Поддержка</a>
+        <a href="#">Конфиденциальность</a>
+      </nav>
+      <p class="footer__copy">© 2026 Coin. Сделано с заботой о вашем бюджете.</p>
+    </div>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
