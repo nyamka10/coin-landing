@@ -62,9 +62,3 @@ docker run -d -p 8080:80 --name coin-landing coin-landing
 - Чистая статика: нет Node, БД и бэкенда в рантайме
 - Лимиты в Compose: **0.25 CPU** и **64 МБ** памяти
 - Включены gzip и кэширование статики
-
----
-
-<div align="center">
-<sub>© 2026 Coin. Сделано с заботой о вашем бюджете.</sub>
-</div>
